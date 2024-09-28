@@ -1,0 +1,157 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: work sans;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: space-between; */
+    padding: 0px 90px;
+    padding-top: 148px;
+    gap:70px;
+    /* background-color: #d4b9b9; */
+}
+
+#left{
+    height: 100%;
+    width: 48%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column; 
+    
+}
+
+ h1{
+    font-size:100px;
+    font-weight:400;
+    line-height: 90px;
+    padding: 50px;
+    font-family: work sans;
+ }
+
+ 
+ .colors{
+    height: 30px;
+    width: 120px;
+    border-radius:50px;
+    /* background-color: green; */
+    margin: 40px;
+    display: flex;
+    border:  1px solid black;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 600;
+ }
+ #color1{
+    height: 20px;
+    width: 20px;
+    background: rgba(127, 138, 38, 0.772);
+    border-radius: 50%;
+    padding-left: 10px;
+
+
+    
+ }
+ #color2{
+    height: 20px;
+    width: 20px;
+    background: rgba(13, 41, 153, 0.785);
+    border-radius: 50%;
+
+    
+ }
+
+ .bottom-words h3{
+
+    padding: 0px 42px;
+    
+    }
+    
+    .bottom-words p{
+        
+        width: 65%;
+        line-height: 23px;
+        padding: 0px 42px;
+    
+        }
+ 
+ 
+ .bottom-div{
+    height: 50%;
+    width: 100%;
+    /* background-color: aqua; */
+ }
+
+#right{
+    height:95%;
+    width: 25%;
+    background-color: blue;
+    padding-bottom: 50px;
+    background-image:url("women1.jpg");
+    background-size: cover;
+    position: relative;
+   
+}
+.right-top{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    /* background-color: yellow; */
+    justify-content: space-between;
+    color: black;
+    position: absolute;
+    top: -35px;;
+}
+.rating{
+    padding-right: 30px;
+    font-size: small;
+    color: black;
+
+}
+.rating i{
+    font-size: 10px;  
+}
+
+#price{
+    font-weight: 600;
+   
+}
+.gola{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color:white;
+    position: absolute;
+    right: -20%;
+    top:25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+  
+}
+h5{
+    font-size: medium;
+    font-weight: 500;
+}
+
+.caption{
+    height: 35px;
+    width: fit-content;
+    font-size: 35px;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 30%;
+    rotate: -90deg;
+    left: -160px;
+    font-weight: 500;
+}
